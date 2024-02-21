@@ -1,0 +1,20 @@
+package com.notanull.SpringSecurityCourse.util;
+
+public enum RolePermission {
+
+    //PARA PRODUCTOS
+    READ_ALL_PRODUCTS,
+    READ_ONE_PRODUCT,
+    CREATE_ONE_PRODUCT,
+    UPDATE_ONE_PRODUCT,
+    DISABLE_ONE_PRODUCT,
+
+    //PARA CATEGORÍAS
+    READ_ALL_CATEGORIES,
+    READ_ONE_CATEGORY,
+    CREATE_ONE_CATEGORY,
+    UPDATE_ONE_CATEGORY,
+    DISABLE_ONE_CATEGORY,
+
+    READ_MY_PROFILE
+}
